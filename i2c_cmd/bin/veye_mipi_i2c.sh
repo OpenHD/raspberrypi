@@ -5,7 +5,7 @@
 #set camera i2c pin mux
 #
 
-I2C_DEV=10;
+I2C_DEV=0;
 I2C_ADDR=0x3b;
 
 print_usage()
@@ -19,7 +19,7 @@ print_usage()
 	echo "    -p2 [param1] 			   param2 of each function"
 	echo "    -b [i2c bus num] 		   i2c bus number"
 	echo "    -d [i2c addr] 		   i2c addr if not default 0x3b"
-	echo "support functions: devid,hdver,sensorid,wdrmode,videoformat,mirrormode,denoise,agc,lowlight,daynightmode,ircutdir,irtrigger£¬mshutter"
+	echo "support functions: devid,hdver,sensorid,wdrmode,videoformat,mirrormode,denoise,agc,lowlight,daynightmode,ircutdir,irtriggerï¿½ï¿½mshutter"
     echo "cameramode, nodf, capture, csienable,saturation,wdrbtargetbr,wdrtargetbr, brightness ,contrast , sharppen, aespeed,lsc,boardmodel,yuvseq,i2cauxenable,i2cwen,awbgain,wbmode,mwbgain"
 }
 
